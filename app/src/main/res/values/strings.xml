@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GPA</string>
+    <string name="grades_front_page">Grades</string>
+</resources>
