@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">GPA</string>
     <string name="grades_front_page">Grades</string>
+    <string name="home_fab">home fab</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
