@@ -47,13 +47,11 @@
                         app:singleLine="true">
 
                         <com.google.android.material.chip.Chip
-                            android:id="@+id/chp_group"
                             android:layout_width="wrap_content"
-                            android:layout_height="30dp"
+                            android:layout_height="wrap_content"
                             android:text="the chip"
-                            app:chipBackgroundColor="@android:color/background_dark"
-                            android:textColor="@android:color/background_light"
-                            android:textStyle="bold"/>
+                            android:textColor="@android:color/background_dark"
+                            app:chipBackgroundColor="@android:color/background_dark"/>
 
                     </com.google.android.material.chip.ChipGroup>
 
@@ -61,7 +59,7 @@
                         android:layout_width="25dp"
                         android:layout_height="25dp"
                         android:background="@android:color/background_light"
-                        android:text="+"
+                        android:text="@string/plus_sign"
                         android:textStyle="bold"
                         android:layout_marginLeft="10dp"
                         android:layout_marginRight="5dp"
@@ -74,7 +72,6 @@
 
             <com.google.android.material.tabs.TabLayout
                 android:id="@+id/tab_layout"
-                style="@style/Widget.MaterialComponents.TabLayout.Colored"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
@@ -82,6 +79,28 @@
                 android:id="@+id/viewPager2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/level_gpa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/n_a"
+                android:textSize="20sp"
+                android:textColor="@android:color/background_dark"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@android:color/background_dark"
+                android:text="@string/g_p_a"
+                android:textSize="12sp"
+                android:layout_gravity="center"
+                android:textAlignment="center"/>
 
         </LinearLayout>
 

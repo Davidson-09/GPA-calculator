@@ -27,7 +27,7 @@
             android:gravity="center_horizontal" />
 
         <TextView
-            android:id="@+id/course_credit"
+            android:id="@+id/credit_load"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:textSize="14sp"

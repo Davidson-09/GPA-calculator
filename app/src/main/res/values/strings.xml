@@ -4,4 +4,16 @@
     <string name="home_fab">home fab</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="level">LEVEL</string>
+    <string name="session">SESSION</string>
+    <string name="slash">/</string>
+    <string name="save">SAVE</string>
+    <string name="new_level">NEW LEVEL</string>
+    <string name="course_details">COURSE DETAILS</string>
+    <string name="course_code">COURSE CODE</string>
+    <string name="credit_load">CREDIT LOAD</string>
+    <string name="grade">GRADE</string>
+    <string name="g_p_a">G.P.A</string>
+    <string name="n_a">N/A</string>
+    <string name="plus_sign">+</string>
 </resources>
